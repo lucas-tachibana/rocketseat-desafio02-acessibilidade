@@ -14,7 +14,7 @@ body {
   padding-top: 65px;
 }
 
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@ body {
   margin-bottom: 55px;
 }
 
-.list {
+nav ul {
   display: flex;
   gap: 48px;
   list-style: none;
@@ -35,16 +35,16 @@ a {
   text-decoration: none;
 }
 
-.list .item a {
-    opacity: 0.5;
+ul li a {
+  opacity: 0.5;
 }
 
-.list .item a:hover {
+ul li a:hover {
   font-weight: bold;
   opacity: 1;
 }
 
-.list,
+ul,
 .title {
   font-family: "Mulish", sans-serif;
 }
@@ -111,7 +111,7 @@ a {
 }
 
 #balls {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
